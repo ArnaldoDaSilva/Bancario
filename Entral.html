@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Configuracoes\SistemaIniciail.css">
+    <title>Sistema Bancario</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="">home</a></li>
+            <li><a href="">Sobre</a></li>
+            <li><a href="">Contacto</a></li>
+            <li><a href="">Suporte </a></li>
+
+        </ul>
+    </nav>
+    <Form method="POST" action="Configuracoes\logar.php">
+        <div class="campo">
+            <h1>Credencias</h1>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Nome" required>
+            <label for="Password">Password</label>
+            <input type="password" id="pass" placeholder="Password" required>
+            <button type="submit" onclick="login()">Entrar</button>
+            <p class="error" id="errorMessage"></p>
+            <span> <ins><a href="pages\settings\NovasContas.html">Registrar novas contas</a></ins></span>
+           
+        </div>
+    </Form>
+    <script src="Configuracoes\login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+body {
+
+    font-family: Arial, sans-serif;
+    background-color: rgb(28, 63, 107);
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    justify-content: center;
+
+}
+.navbar {
+  
+    background-color: white;
+    padding: 10px 0px;
+    width: 100%;
+    /* margin-left: 10%;
+    margin-top: 10px; */
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgba(31, 71, 121);
+    font-size: 14px;
+    padding: 8px 20px;
+
+
+}
+
+.nav-links a:hover {
+    background-color: rgba(31, 71, 121);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+/* side bar */
+
+.sidebar {
+
+    background-color: white;
+    padding: 20px;
+    width: 20dvw;
+    height: 100vh;
+    border-radius: 5px;
+    position:absolute;
+    left: 0;
+    transition: 0.3s;
+    top: 80px;
+
+}
+
+.sidelinks {
+
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    flex-wrap:wrap;
+
+}
+
+.sidelinks li {
+    margin: 0 15px;
+}
+
+.sidelinks a {
+    text-decoration: none;
+    color: rgba(31, 71, 121);
+    font-size: 14px;
+    padding: 12px 10px;
+    display: block;
+    transition:0.3s ;
+    
+
+}
+
+.sidelinks a:hover {
+    background-color: rgba(31, 71, 121);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    padding: 15px ;
+}
+.Cadastro{
+
+
+    background: linear-gradient(to right, #ffff 50%, rgb(34, 1, 1) 50%);
+    width: 70dvw;
+    height: 100vh;
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 20dvw;
+
+}
+.Cadastro label{
+    color: rgb(31, 71, 121);
+    font-size: 14px;
+}
+.Cadastro input{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+
+    height: 5vh;
+    width:20vw;
+    background-color: transparent;
+    border: 2px solid rgb(31,71, 121);
+    border-radius: 10px;
+    padding: 10px 12px;
+    text-align: left;
+    gap: 10px;
+}
+.Cadastro button{
+    text-decoration: none;
+    list-style: none;
+    background-color: initial;
+    border-radius: 10px;
+    width: 10%;
+    height: 7%;
+    top: 100px;
+    display: block;
+    position: relative;
+}
+.Cadastro input:hover{
+    transition:0.3s ;
+
+    border: 2px solid  red;
+
+}
+.Cadastro h1{
+    color: rgb(31,71, 121);
+    justify-content: left;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.form-containe table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: rgb(31, 71, 121);
+}
+table, th, td {
+    border: 2px solid rgb(31,71, 121);
+
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: transparent;
+
+
+}
+
+.form-containe{
+
+
+    background-color: white;
+    width: 70dvw;
+    height: 100vh;
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 20dvw;
+
+}
+.form-containe label{
+    color: rgb(31, 71, 121);
+    font-size: 14px;
+}
+.form-containe input{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+
+    height: 5vh;
+    width:20vw;
+    background-color: transparent;
+    border: 2px solid rgb(31,71, 121);
+    border-radius: 10px;
+    padding: 10px 12px;
+    text-align: left;
+    gap: 10px;
+}
+.form-containe button{
+    text-decoration: none;
+    list-style: none;
+    background-color: initial;
+    border-radius: 10px;
+    width: 10%;
+    height: 7%;
+    bottom: 0px;
+    display: block;
+    position: relative;
+}
+.form-containe input:hover{
+    transition:0.3s ;
+
+    border: 2px solid  red;
+
+}
+.form-containe h1{
+    color: rgb(31,71, 121);
+    font-family: sans-serif;
+}
+
+/* espaco de Cliente */
+
+.Cadastro1{
+
+
+    background: linear-gradient(to right, #ffff 50%, rgb(34, 1, 1) 50%);
+    width: 70dvw;
+    height: 100vh;
+    border-radius: 10px;
+    /* border-top-right-radius: 20vw; */
+    /* border-top-left-radius: 5vw; */
+    padding: 20px;
+    margin-left: 20dvw;
+
+}
+.Cadastro1 label{
+    color: rgb(31, 71, 121);
+    font-size: 14px;
+}
+.Cadastro1 input{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    height: 5vh;
+    width:20vw;
+    background-color: transparent;
+    border: 2px solid rgb(31,71, 121);
+    border-radius: 10px;
+    padding: 10px 12px;
+    gap: 10px;
+}
+.Cadastro1 button{
+    text-decoration: none;
+    list-style: none;
+    background-color: initial;
+    border-radius: 10px;
+    width: 10%;
+    height: 7%;
+    padding: 10px 12px;
+  display: block;
+  position: absolute;
+    bottom: 10px;
+
+
+}
+.Cadastro1 button:hover{
+    transition:0.3s ;
+
+    border: 2px solid  red;
+}
+.Cadastro1 input:hover{
+    transition:0.3s ;
+
+    border: 2px solid  red;
+
+}
+.Cadastro1 h1{
+    color: rgb(31,71, 121);
+    justify-content: left;
+    display: flex;
+    font-family: sans-serif;
+    margin: 10px;
+}
+.Ca{
+
+
+    background-color: rgb(255, 255, 255);
+    width: 7dvw;
+    height: 20vh;
+    border-radius: 100px;
+    padding: 20px;
+    margin-left: 20dvw;
+   display: block;
+   position: absolute;
+   top: 40vh;
+ 
+  
+}
+.Ca1{
+
+
+    background-color: rgb(169, 41, 41);
+    width: 7dvw;
+    height: 20vh;
+    border-radius: 50px;
+    padding: 20px;
+    margin-left: 20dvw;
+    display: block;
+   position: absolute;
+   top: 100px;
+   left: 200px;
+
+}
+
+.Ca2{
+
+
+    background-color: rgb(47, 14, 14);
+    width: 7dvw;
+    height: 20vh;
+    border-radius: 50px;
+    padding: 20px;
+    margin-left: 20dvw;
+    display: block;
+   position: absolute;
+   top: 100px;
+   left: 55vw;
+
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MenuGerenciavel.css">
+    <title>Cliente</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="MenuGerenciavel.html">home</a></li>
+            <li><a href="">Sobre</a></li>
+            <li><a href="">Gerenciamento</a></li>
+            <li><a href="">Contacto</a></li>
+            <li><a href="">Suporte </a></li>
+        </ul>
+    </nav>
+    <aside>
+        <div class="sidebar">
+            <ul class="sidelinks">
+                <li><a href="Cliente.html">Cliente</a></li>
+                <li><a href="ContasCLiente.html">Contas De Clientes</a></li>
+                <li><a href="ContaOrdem.html">Operacoes Conta Ordem</a></li>
+                <li><a href="ContaPrazo.html">Operacoes Conta Prazo</a></li>
+                <li><a href="Funcionario&Gerente.html">Funcionario & Gerente</a></li>
+                <li><a href="Entral.html">Sair</a></li>
+            </ul>
+        </div>
+
+    </aside>
+    <form action=conexao1.php" method="post">
+        <div class="Cadastro1">
+            <H1>Cadastro</H1>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="nome" required>
+            <label for="apelido">Apelido</label>
+            <input type="text" name="apelido" id="apelido" placeholder="apelido" required>
+            <label for="data">Data</label>
+            <input type="date" name="data" id="data" required>
+            <label for="identidade">Identidade</label>
+            <input type="text" name="identidade" id="identidade" placeholder="identidade" required>
+            <label for="nuit">Nuit</label>
+            <input type="text" name="nuit" id="nuit" placeholder="Nuit">
+            <label for="residencia">Residencia</label>
+            <input type="text" name="residencia" id="residencia" placeholder="Residencia" required>
+            <!-- <input type="submit" value="Registrar" > -->
+            <button type="submit" id="btnCadastro"> Registrar </button>
+
+
+        </div>
+    </form>
+</body>
+
+</html>
