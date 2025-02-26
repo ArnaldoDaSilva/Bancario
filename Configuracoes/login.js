@@ -10,7 +10,7 @@ function login(){
     if(nome==usuario && password===pass){
         localStorage.setItem("loggedIn", "true");
          setTimeout(()=>{
-            window.location.href="pages/settings/MenuGerenciavel.html";
+            window.location.href="pages/MenuGerenciavel.html";
          });
       
     }
